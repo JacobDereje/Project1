@@ -16,7 +16,7 @@ public void area(){
 
 
 }
-public void setColor(String color){
+public void setColor(String newColor){
 
 
 }
