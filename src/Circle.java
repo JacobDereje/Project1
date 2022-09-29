@@ -36,7 +36,9 @@ public String getColor(String Color){
 
 }
 
-    public void getPos(double) {
+public double getPos(double x_position, double y_position) {
+    return pos;
+
 
     }
 
