@@ -3,6 +3,8 @@ public double x_position;
 public double y_position;
 public double height;
 public String Color;
+public double pos;
+public double radius;
 
 public Circle(double x_position, double y_position, double height){
     this.x_position = x_position;
@@ -22,5 +24,17 @@ public void setColor(String Color){
 
 
 }
+public void setPos(double x_position, double y_position){
+    this.pos = pos;
+}
+
+public void setRadius(double radius) {
+    this.radius = radius;
+}
+public void getColor(String color){
+
+
+}
+
     }
 
