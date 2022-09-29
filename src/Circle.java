@@ -12,10 +12,12 @@ public Circle(double x_position, double y_position, double height){
     this.height = height;
 }
 public void perimeter(){
+    double perimeter = 2 * Math.PI * radius;
 
 
 }
 public void area(){
+    double area = (radius * radius) * Math.PI;
 
 
 }
@@ -28,7 +30,7 @@ public void setPos(double x_position, double y_position){
     this.pos = pos;
 }
 
-public void setRadius(double radius) {
+public setRadius(double radius) {
     this.radius = radius;
 }
 public String getColor(String Color){
@@ -36,11 +38,21 @@ public String getColor(String Color){
 
 }
 
-public double getPos(double x_position, double y_position) {
-    return pos;
+public double getXPos(double x_position) {
+    return x_position;
 
 
-    }
+}
+
+public double getYPos (double y_position) {
+    return y_position;
+
+}
+public double getRadius (double Radius){
+    return radius;
+
+}
+
 
 
 
