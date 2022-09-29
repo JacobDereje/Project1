@@ -31,10 +31,16 @@ public void setPos(double x_position, double y_position){
 public void setRadius(double radius) {
     this.radius = radius;
 }
-public void getColor(String color){
-
+public String getColor(String Color){
+    return Color;
 
 }
+
+    public void getPos(double) {
+
+    }
+
+
 
     }
 
