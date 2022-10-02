@@ -24,7 +24,7 @@ public class Circle {
         this.y_position = y_position;
     }
 
-    public double setRadius(double radius) {
+    public double setRadius(double radius){
         this.radius = radius;
     }
     public String getColor(){
@@ -32,11 +32,11 @@ public class Circle {
 
     }
 
-    public double getXPos() {
+    public double getXPos(){
         return x_position;
     }
 
-    public double getYPos() {
+    public double getYPos(){
         return y_position;
     }
     public double getRadius(){
