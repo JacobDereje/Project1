@@ -1,60 +1,50 @@
 public class Circle {
-public double x_position;
-public double y_position;
-public double height;
-public String Color;
-public double pos;
-public double radius;
-
-public Circle(double x_position, double y_position, double height){
-    this.x_position = x_position;
-    this.y_position = y_position;
-    this.height = height;
-}
-public perimeter(){
-    double perimeter = 2 * Math.PI * radius;
+    public double x_position, y_position, radius;
+    public String color;
 
 
-}
-public void area(){
-    double area = (radius * radius) * Math.PI;
-
-
-}
-public void setColor(String Color){
-    this.Color = Color;
-
-
-}
-public void setPos(double x_position, double y_position){
-    this.pos = pos;
-}
-
-public double setRadius(double radius) {
-    this.radius = radius;
-}
-public String getColor(String Color){
-    return Color;
-
-}
-
-public double getXPos(double x_position) {
-    return x_position;
-
-
-}
-
-public double getYPos (double y_position) {
-    return y_position;
-
-}
-public double getRadius (double Radius){
-    return radius;
-
-}
-
-
+    public Circle(double x_position, double y_position, double radius){
+        this.x_position = x_position;
+        this.y_position = y_position;
+        this.radius = radius;
+    }
+    public double calculatePerimeter(){
+        return (2 * Math.PI * this.radius);
+    }
+    public double calculateArea(){
+        return (this.radius * this.radius * Math.PI);
+    }
+    public void setColor(String Color){
+        this.color = Color;
 
 
     }
+    public void setPos(double x_position, double y_position){
+        this.x_position = x_position;
+        this.y_position = y_position;
+    }
+
+    public double setRadius(double radius) {
+        this.radius = radius;
+    }
+    public String getColor(){
+        return this.color;
+
+    }
+
+    public double getXPos() {
+        return x_position;
+    }
+
+    public double getYPos() {
+        return y_position;
+    }
+    public double getRadius(){
+        return radius;
+    }
+
+
+
+
+}
 
