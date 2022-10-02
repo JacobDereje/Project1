@@ -1,7 +1,7 @@
 import java.awt.Color;
 public class Triangle{
     public double xPos, yPos, width, height, side;
-    Color color = new Color();
+    Color color = new Color(0);
     public Triangle(double xPosBottomLeft, double yPosBottomLeft, double width, double height){
         this.xPos = xPosBottomLeft;
         this.yPos = yPosBottomLeft;

@@ -1,7 +1,7 @@
 import java.awt.Color;
 public class Circle {
     public double x_position, y_position, radius;
-    Color color = new Color();
+    Color color = new Color(0);
 
 
     public Circle(double x_position, double y_position, double radius){
@@ -27,7 +27,7 @@ public class Circle {
         this.y_position = y_position;
     }
 
-    public double setRadius(double radius){
+    public void setRadius(double radius){
         this.radius = radius;
     }
 

@@ -2,7 +2,7 @@ import java.awt.Color;
 
 public class Rectangle {
     public double x_position, y_position, height, width;
-    Color color = new Color();
+    Color color = new Color(0);
 
     public Rectangle(double xPosUpperLeft, double yPosUpperLeft, double height, double width){
         this.x_position = xPosUpperLeft;
