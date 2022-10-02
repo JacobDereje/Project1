@@ -1,12 +1,15 @@
+import java.awt.Color;
+
 public class Rectangle {
     public double x_position, y_position, height, width;
-    public String color;
+    Color color = new Color();
 
     public Rectangle(double xPosUpperLeft, double yPosUpperLeft, double height, double width){
         this.x_position = xPosUpperLeft;
         this.y_position = yPosUpperLeft;
         this.height = height;
         this.width = width;
+        this.color = color;
     }
     public double calculatePerimeter(){
         return 2*(height+width);
@@ -15,8 +18,11 @@ public class Rectangle {
         return this.width * this.height;
     }
 
-    public void setColor(String color){
-        this.color = color;
+    public void setColor(Color newColor){
+        this.color = newColor;
+    }
+    public Color getColor(){
+        return this.color;
     }
     public void setHeight(double height){
         this.height = height;
@@ -25,9 +31,6 @@ public class Rectangle {
         this.width = width;
     }
 
-    public Color getColor(){
-        return this.color;
-    }
     public double getXPos(){
         return this.x_position;
     }

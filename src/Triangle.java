@@ -1,12 +1,13 @@
 import java.awt.Color;
 public class Triangle{
     public double xPos, yPos, width, height, side;
-
+    Color color = new Color();
     public Triangle(double xPosBottomLeft, double yPosBottomLeft, double width, double height){
         this.xPos = xPosBottomLeft;
         this.yPos = yPosBottomLeft;
         this.width = width;
         this.height = height;
+        this.color = color;
     }
 
     public double calculatePerimeter(){
@@ -28,6 +29,12 @@ public class Triangle{
         this.width = width;
     }
 
+    public void setColor(Color newColor){
+        this.color = newColor;
+    }
+    public Color getColor(){
+        return this.color;
+    }
     public double getXPos(){
         return this.xPos;
     }
@@ -37,7 +44,7 @@ public class Triangle{
     public double getHeight(){
         return this.height;
     }
-    public double getWidths(){
+    public double getWidth(){
         return this.width;
     }
 
