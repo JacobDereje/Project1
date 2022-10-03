@@ -1,13 +1,13 @@
+//Po Cheng Cheng(Brandon Cheng), chen7381
 import java.awt.Color;
 public class Triangle{
-    public double xPos, yPos, width, height, side;
-    Color color = new Color(0);
+    private double xPos, yPos, width, height, side;
+    private Color color;
     public Triangle(double xPosBottomLeft, double yPosBottomLeft, double width, double height){
         this.xPos = xPosBottomLeft;
         this.yPos = yPosBottomLeft;
         this.width = width;
         this.height = height;
-        this.color = color;
     }
 
     public double calculatePerimeter(){

@@ -1,14 +1,14 @@
+//Po Cheng Cheng(Brandon Cheng), chen7381
 import java.awt.Color;
 public class Circle {
-    public double x_position, y_position, radius;
-    Color color = new Color(0);
+    private double x_position, y_position, radius;
+    private Color color;
 
 
     public Circle(double x_position, double y_position, double radius){
         this.x_position = x_position;
         this.y_position = y_position;
         this.radius = radius;
-        this.color = color;
     }
     public double calculatePerimeter(){
         return (2 * Math.PI * this.radius);

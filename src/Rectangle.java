@@ -1,21 +1,21 @@
+//Po Cheng Cheng(Brandon Cheng), chen7381
 import java.awt.Color;
 
-public class Rectangle {
-    public double x_position, y_position, height, width;
-    Color color = new Color(0);
+public class Rectangle{
+    private double xPos, yPos, height, width;
+    private Color color;
 
     public Rectangle(double xPosUpperLeft, double yPosUpperLeft, double height, double width){
-        this.x_position = xPosUpperLeft;
-        this.y_position = yPosUpperLeft;
+        this.xPos = xPosUpperLeft;
+        this.yPos = yPosUpperLeft;
         this.height = height;
         this.width = width;
-        this.color = color;
     }
     public double calculatePerimeter(){
         return 2*(height+width);
     }
     public double calculateArea(){
-        return this.width * this.height;
+        return (this.width * this.height);
     }
 
     public void setColor(Color newColor){
@@ -32,10 +32,10 @@ public class Rectangle {
     }
 
     public double getXPos(){
-        return this.x_position;
+        return this.xPos;
     }
     public double getYPos(){
-        return this.y_position;
+        return this.yPos;
     }
     public double getWidth(){
         return this.width;
