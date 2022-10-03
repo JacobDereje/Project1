@@ -1,4 +1,5 @@
 //Po Cheng Cheng(Brandon Cheng), chen7381
+//Jacob Dereje, derej006
 import java.awt.Color;
 public class Triangle{
     private double xPos, yPos, width, height, side;
